@@ -9,5 +9,32 @@
 	font-style: normal;
 }
 body  {
+	background-color: black;
 	
+}
+.homebg {
+	background-image: url(../images/archway.jpg);
+	height: 300px;
+	
+}
+
+
+.innerheader {
+	background-color: rgba(19,19,19,.75);
+	font-family: Impact;
+	color: rgba(45,201,219,1.00);
+	height: 100px;
+}
+
+
+.btn-group {
+	color: teal;
+}
+	
+.btn {
+	color: teal;
+}
+
+.img-rounded {
+	margin-bottom: 20px;
 }
