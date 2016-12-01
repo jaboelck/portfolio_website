@@ -9,32 +9,41 @@
 	font-style: normal;
 }
 body  {
-	background-color: black;
+	background-color: white;
 	
 }
 .homebg {
-	background-image: url(../images/archway.jpg);
+	background-image: url(../images/beachbackground.jpg);
 	height: 300px;
 	
 }
 
 
 .innerheader {
-	background-color: rgba(19,19,19,.75);
-	font-family: Impact;
-	color: rgba(45,201,219,1.00);
+	background-color: rgba(255,255,255,.50);
+	font-family: dr-sugiyama;
+	color: rgba(0,206,179,1.00);
 	height: 100px;
+	font-style: normal;
+	font-weight: 400;
 }
 
 
 .btn-group {
-	color: teal;
+	color: rgba(0,209,182,1.00);
 }
 	
-.btn {
+.btn-default {
 	color: teal;
 }
 
 .img-rounded {
 	margin-bottom: 20px;
+}
+
+.portfoliopic {
+	align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
 }
