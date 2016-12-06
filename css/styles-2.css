@@ -29,21 +29,61 @@ body  {
 }
 
 
+
 .btn-group {
 	color: rgba(0,209,182,1.00);
-}
-	
-.btn-default {
-	color: teal;
+    background-color: rgba(135,205,188,1.00);
+    height: 20px;
+    
 }
 
-.img-rounded {
+.btn {
+    background-color: rgba(135,205,188,1.00);
+    color: black;
+    font-family: Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+    font-size: 17px;
+    
+}
+
+.spacer {
+    height: 50px;
+    
+}
+
+.image-design {
 	margin-bottom: 20px;
+	border: 3px solid rgba(11,136,222,1.00); 
+    
+}
+
+.image-writing {
+    margin-bottom: 30px;
+    border: 3px solid rgba(12, 201, 232, 1.00);
+}
+
+.image-usability {
+	margin-bottom: 30px;
+	border: 3px solid rgba(11,232,75,1.00);
+	  
 }
 
 .portfoliopic {
-	align: center;
+	alignment: center;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	
+}
+.resume {
+    align: center;
+   
+    
+}
+
+.portfoliosec{
+    text-align: center;
+    font-size: 40px;
+    font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
+}
+.foot {
+    background-color: rgba(135,205,188,1.00);
 }

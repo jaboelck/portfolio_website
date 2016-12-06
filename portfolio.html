@@ -16,11 +16,34 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
   <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
-  <script>var __adobewebfontsappname__="dreamweaver"</script>
+  <script>
+var __adobewebfontsappname__="dreamweaver"
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+  </script>
   <script src="http://use.edgefonts.net/dr-sugiyama:n4:default.js" type="text/javascript"></script>
 
   </head>
-  <body>
+  <body onLoad="MM_preloadImages('portfolio/MarketingFinal.jpg')">
   <div class="container-fluid">
 	  <div class="row">
 	    <div class="homebg col-lg-12 col-med-12 col-sm-12">
@@ -29,7 +52,7 @@
              </div>
              <div class="row">
 	      		<div class="innerheader col-lg-6 col-med-6 col-sm-6 text-center col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
-	      		  <h1 class="text"><a href="index.html">Jessica Boelcke</a></h1>
+	      		  <h1 class="text">Jessica Boelcke</h1>
 	      		</div>
              </div>
       </div>
@@ -41,54 +64,105 @@
         <a href="portfolio.html" class="btn btn-default" role="button">Porfolio</a>
     </div>
     
+    <article class="row">
+        <section class="spacer col-lg-12 col-med-12 col-sm-12 col-xs-12">
+            
+        </section>
+    </article>
+    
+    <article class="row">
+        <section class="design col-lg-12 col-med-12 col-sm-12 col-xs-12">
+            <h2 class="portfoliosec text">Design</h2>
+        </section>
+    </article>
+   
 	<article class="row">	   
     	<section class="main col-lg-4 col-med-4 col-sm-4 col-xs-12">
-     		<img src="portfolio/RifleColorImpact 10.54.50 AM.jpg" width="370" height="220" class="image-rounded img-responsive" alt=""/>
+     		<img src="portfolio/RifleColorImpactcrop.jpg" width="370" height="220" class="image-design img-responsive img-rounded" alt=""/>
     	</section>
     	<section class="main col-lg-4 col-med-4 col-sm-4 col-xs-12">
-    		<img src="portfolio/Boelcke Audit Redesign_Page_1.jpg" width="370" height="220" class="image-rounded img-responsive" alt=""/>
+    		<img src="portfolio/Boelcke Audit Redesign_Page_1crop.jpg" width="370" height="220" class="image-design img-responsive img-rounded" alt=""/>
     	</section>
     	<section class="main col-lg-4 col-med-4 col-sm-4 col-xs-12">
-    		<img src="portfolio/Boelcke Audit Redesign_Page_2.jpg" alt="" width="370" height="220" class="image-rounded img-responsive"/>
+    		<img src="portfolio/Boelcke Audit Redesign_Page_2crop.jpg" alt="" width="370" height="220" class="image-design img-responsive img-rounded"/>
     	</section>
    	</article>
 
 	<article class="row">	   
     	<section class="main col-lg-4 col-med-4 col-sm-4 col-xs-12">
-     		<img src="portfolio/MarketingFinal.jpg" width="370" height="220" class="image-rounded img-responsive" alt=""/>
+     		<img src="portfolio/MarketingFinalcrop.jpg" width="370" height="220" class="image-design img-responsive img-rounded" alt=""/>
     	</section>
    	 	<section class="main col-lg-4 col-med-4 col-sm-4 col-xs-12">
-    		<img src="portfolio/Aviation Enterprise Logo.jpg" width="370" height="220" class="image-rounded img-responsive" alt=""/>
+    		<img src="portfolio/Aviation Enterprise Logocrop.jpg" width="370" height="220" class="image-design img-responsive img-rounded" alt=""/>
     	</section>
     	<section class="main col-lg-4 col-med-4 col-sm-4 col-xs-12">
-    		<img src="portfolio/Graphic Design Infographic.jpg" alt="" width="370" height="220" class="image-rounded img-responsive"/>
+    		<img src="portfolio/Graphic Design Infographiccrop.jpg" alt="" width="370" height="220" class="image-design img-responsive img-rounded"/>
     	</section>
 	</article>
    
    <article class="row">	   
     	<section class="main col-lg-4 col-med-4 col-sm-4 col-xs-12">
-     		<img src="portfolio/Media Industries Issue Brief_Page_1.jpg" width="370" height="220" class="image-rounded img-responsive" alt=""/>
+     		<img src="portfolio/Media Industries Issue Brief_Page_1crop.jpg" width="370" height="220" class="image-design img-responsive img-rounded" alt=""/>
     	</section>
    	 	<section class="main col-lg-4 col-med-4 col-sm-4 col-xs-12">
-    		<img src="portfolio/Media Industries Issue Brief_Page_2.jpg" width="370" height="220" class="image-rounded img-responsive" alt=""/>
+    		<img src="portfolio/Media Industries Issue Brief_Page_2crop.jpg" width="370" height="220" class="image-design img-responsive img-rounded" alt=""/>
     	</section>
     	<section class="main col-lg-4 col-med-4 col-sm-4 col-xs-12">
-    		<img src="portfolio/Screen Shot 2016-03-17 at 9.00.04 PM.png" alt="" width="370" height="220" class="image-rounded img-responsive"/>
+    		<img src="Contrastcrop.jpg" alt="" width="370" height="220" class="image-design img-responsive img-rounded"/>
     	</section>
 	</article>
    
    <article class="row">	   
     	<section class="main col-lg-4 col-med-4 col-sm-4 col-xs-12">
-     		<img src="portfolio/Tart Tart Edited Cover Final.jpg" width="370" height="220" class="image-rounded img-responsive" alt=""/>
+     		<img src="portfolio/Tart Tart Edited Cover Finalcrop.jpg" width="370" height="220" class="image-design img-responsive img-rounded" alt=""/>
     	</section>
    	 	<section class="main col-lg-4 col-med-4 col-sm-4 col-xs-12">
-    		<img src="portfolio/jaboelck_printtest_Page_2.jpg" width="370" height="220" class="image-rounded img-responsive" alt=""/>
+    		<img src="portfolio/jaboelck_printtest_Page_2crop.jpg" width="370" height="220" class="image-design img-responsive img-rounded" alt=""/>
     	</section>
     	<section class="main col-lg-4 col-med-4 col-sm-4 col-xs-12">
-    		<img src="portfolio/ambassadorsticker.jpg" alt="" width="370" height="220" class="image-rounded img-responsive"/>
+    		<img src="portfolio/ambassadorstickercrop.jpg" alt="" width="370" height="220" class="image-design img-responsive img-rounded"/>
     	</section>
 	</article>
    
+   <article class="row">
+        <section class="spacer col-lg-12 col-med-12 col-sm-12 col-xs-12">
+            
+        </section>
+    </article>
+    
+    <article class="row">
+        <section class="design col-lg-12 col-med-12 col-sm-12 col-xs-12">
+            <h2 class="portfoliosec text">Writing</h2>
+        </section>
+    </article>
+    
+    <article class="row">
+        <section class= "main col-lg-6 col-med-6 col-sm-6 col-xs-12">
+            <img src="portfolio/IMRD" class="image-writing img-responsive img-rounded"/>
+        </section>
+        <section class= "main col-lg-6 col-med-6 col-sm-6 col-xs-12">
+            <img src="portfolio/IMRD2.jpg" class="image-writing img-responsive img-rounded"/>
+        </section>
+    </article>
+    
+    <article class="row">
+        <section class="spacer col-lg-12 col-med-12 col-sm-12 col-xs-12">
+            
+        </section>
+    </article>
+    
+    <article class="row">
+        <section class="design col-lg-12 col-med-12 col-sm-12 col-xs-12">
+            <h2 class="portfoliosec text">Usability</h2>
+        </section>
+    </article>
+    
+    <article class="row">
+        <section class="main col-leg-12 col-med-12 col-sm-12 col-xs-12">
+            <img src="portfolio/IGSC3OnlineMap.jpg" class="image-usability img-responsive img-rounded"/>
+        </section>
+    </article>
+    
     <footer class="row">
       <div class="foot col-lg-12 col-med-12 col-sm-12"></div>
     </footer>
