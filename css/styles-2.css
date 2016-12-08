@@ -50,15 +50,35 @@ body  {
     
 }
 
+.portfoliosec{
+    text-align: center;
+    font-size: 40px;
+    font-family:Baskerville;
+    font-weight: bolder;
+}
+
 .image-design {
 	margin-bottom: 20px;
 	border: 3px solid rgba(11,136,222,1.00); 
-    
+    align-items: center;
 }
+
+.well-design {
+    font-family: Baskerville;
+    font-size: 16pt;
+    text-align: center;
+}
+
 
 .image-writing {
     margin-bottom: 30px;
     border: 3px solid rgba(12, 201, 232, 1.00);
+}
+
+.well-writing {
+	font-family: Baskerville;
+	font-size: 18pt;
+	text-align: center;
 }
 
 .image-usability {
@@ -67,23 +87,26 @@ body  {
 	  
 }
 
+.well-usability{
+    font-family: Baskerville;
+	font-size: 18pt;
+	text-align: center;
+    
+}
+
 .portfoliopic {
 	alignment: center;
 	margin-bottom: 20px;
 	margin-top: 20px;
 	
 }
+
 .resume {
-    align: center;
-   
+    align: center; 
     
 }
 
-.portfoliosec{
-    text-align: center;
-    font-size: 40px;
-    font-family:Baskerville, Palatino Linotype, Palatino, Century Schoolbook L, Times New Roman, serif;
-}
+
 .foot {
     background-color: rgba(135,205,188,1.00);
 }
