@@ -8,6 +8,9 @@
     <!-- Bootstrap -->
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link href="css/styles-2.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+	<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,6 +19,8 @@
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
   <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+  <script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+  <script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
   <script>var __adobewebfontsappname__="dreamweaver"</script>
   <script src="http://use.edgefonts.net/alegreya-sc:n4:default;yesteryear:n4:default;mr-dafoe:n4:default;leckerli-one:n4:default;dr-sugiyama:n4:default.js" type="text/javascript"></script>
 
@@ -42,13 +47,26 @@
     </div>
     
 <article class="row">	   
-    <section class="main col-lg-8 col-med-8 col-sm-7">
-      Main Information About Jessica
+    <section class="home-bio main col-lg-10 col-med-10 col-sm-10 col-xs-8">
+     I'm a third year Scientific and Technical Communication major with an emphasis in Business. At first when I came to Michigan Tech I was a Computer Engineer, but wasn't totally happy. In my search for a new major I stumbled across STC and fell in love with the curriculum. So far I have taken mostly design classes but I'm expanding into my technical writing courses in Spring of 2017. 
     </section>
     
-    <aside class="col-lg-4 col-med-4 col-sm-5">
-        Contact Information about Jessica Boelcke
+    <aside class="col-lg-2 col-med-2 col-sm-2 col-xs-4">
+     
+      <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+        <button type="button" class="home-btn btn btn-default">Email</button>
+        <a href="https://www.linkedin.com/in/jessica-boelcke-1b7b2b114?trk=nav_responsive_tab_profile_pic">
+        <button type="button" class="home-btn btn btn-default">LinkedIn</button>
+        </a>
+        <a href="https://www.facebook.com/jessica.boelcke">
+        <button type="button" class="home-btn btn btn-default">Facebook</button>
+        </a>
+        <a href="https://www.instagram.com/jabooker18/?hl=en">
+        <button type="button" class="home-btn btn btn-default">Instagram</button>
+        </a>
+      </div>
     </aside>
+    
 </article>
    
     <footer class="row">
@@ -61,5 +79,10 @@
 
 	<!-- Include all compiled plugins (below), or include individual files as needed --> 
 	<script src="../js/bootstrap.js"></script>
+  <script type="text/javascript">
+$(function() {
+	$( "#Accordion1" ).accordion(); 
+});
+    </script>
   </body>
 </html>

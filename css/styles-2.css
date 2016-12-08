@@ -50,6 +50,35 @@ body  {
     
 }
 
+.home-btn {
+    color: white;
+    font-family: Baskerville;
+    font-size: 20pt;
+    background-color: rgba(11,136,222,0.50);
+    width: 175px;
+}
+
+.home-bio {
+    font-size: 18pt;
+    font-family: Baskerville;
+    justify-content: center;
+    margin-top: 20pt;
+    
+    
+}
+
+.panel-group {
+    margin-top: 15pt;
+}
+
+.panel-title {
+    font-family: Baskerville;
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+    
+}
+
 .portfoliosec{
     text-align: center;
     font-size: 40px;
@@ -109,4 +138,5 @@ body  {
 
 .foot {
     background-color: rgba(135,205,188,1.00);
+    height: 50px;
 }
