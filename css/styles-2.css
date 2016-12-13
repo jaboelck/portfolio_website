@@ -23,13 +23,19 @@ body  {
 	background-color: rgba(255,255,255,.50);
 	font-family: dr-sugiyama;
 	color: rgba(0,206,179,1.00);
-	height: 100px;
+	height: 95%;
 	font-style: normal;
 	font-weight: 400;
+    font-size: 80px;
+}
+.text {
+    font-size: 90%;
 }
 
 
-
+.mainnav {
+    background-color: rgba(135,205,188,1.00);
+}
 .btn-group {
 	color: rgba(0,209,182,1.00);
     background-color: rgba(135,205,188,1.00);
@@ -49,13 +55,18 @@ body  {
     height: 50px;
     
 }
-
+.btn-group-vertical {
+    padding-top: 25px;
+    align-content: center;
+    width: 90%;
+}
 .home-btn {
     color: white;
     font-family: Baskerville;
-    font-size: 20pt;
+    font-size: 90%;
     background-color: rgba(11,136,222,0.50);
-    width: 175px;
+    width: 80%;
+    height: 90%;
 }
 
 .home-bio {
@@ -63,6 +74,8 @@ body  {
     font-family: Baskerville;
     justify-content: center;
     margin-top: 20pt;
+    border: solid rgba(11,232,75,0.50) 4px;
+    
     
     
 }
@@ -74,11 +87,18 @@ body  {
 .panel-title {
     font-family: Baskerville;
     color: white;
-    font-size: 18pt;
+    font-size: 25px;
     text-align: center;
     
 }
-
+.panel-heading {
+    
+    background-color: rgba(11,136,222,0.50);
+} 
+.panel-default {
+    background-color: rgba(11,136,222,0.50);
+    
+}
 .portfoliosec{
     text-align: center;
     font-size: 40px;
@@ -94,7 +114,7 @@ body  {
 
 .well-design {
     font-family: Baskerville;
-    font-size: 16pt;
+    font-size: 25px;
     text-align: center;
 }
 
